@@ -7,6 +7,16 @@ public class Endereco {
     String cep;
 
 
+    @Override
+    public String toString() {
+        return "Endereco{" +
+                "logradouro='" + logradouro + '\'' +
+                ", numero=" + numero +
+                ", complemento='" + complemento + '\'' +
+                ", cep='" + cep + '\'' +
+                '}';
+    }
+
     String retornarEndereco(){
         return this.toString();
     }
